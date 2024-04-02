@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .container {
+    max-width: 1245px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    @apply text-neutral-d-grey font-inter text-4xl font-bold leading-normal mb-2 sm:text-3xl;
+  }
+
+  .section-subtitle {
+    @apply text-neutral-grey font-inter text-base sm:max-w-[350px] sm:mx-auto;
+  }
+}
