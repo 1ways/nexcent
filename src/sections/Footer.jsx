@@ -10,16 +10,18 @@ const Footer = () => {
     <footer className='py-16 bg-neutral-black '>
       <div className='container flex items-start justify-between lg:flex-col lg:items-center'>
         <div className='lg:flex lg:flex-col lg:items-center lg:mb-10'>
-          <img className='mb-10' src={footerLogo} alt='logo' />
+          <a className='cursor-pointer' href='#'>
+            <img className='mb-10' src={footerLogo} alt='logo' />
+          </a>
           <p className='font-inter font-normal text-base text-neutral-silver mb-10 lg:text-center'>
             Copyright © 2020 Nexcent ltd. <br />
             All rights reserved
           </p>
           <div className='flex items-center gap-5'>
-            <img src={inst} alt='instagram' />
-            <img src={dribble} alt='dribble' />
-            <img src={twitter} alt='twitter' />
-            <img src={youtube} alt='youtube' />
+            <img className='cursor-pointer' src={inst} alt='instagram' />
+            <img className='cursor-pointer' src={dribble} alt='dribble' />
+            <img className='cursor-pointer' src={twitter} alt='twitter' />
+            <img className='cursor-pointer' src={youtube} alt='youtube' />
           </div>
         </div>
 

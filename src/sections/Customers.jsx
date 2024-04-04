@@ -34,7 +34,7 @@ const Customers = () => {
           <p className='font-inter font-normal text-base text-neutral-l-grey xsm:text-center'>
             British Dragon Boat Racing Association
           </p>
-          <div className='mt-8 flex items-center gap-10 xl:gap-5 sm:flex-col'>
+          <div className='mt-8 flex items-center gap-10 xl:gap-5 lg:flex-col'>
             <div className='flex items-center gap-10 xl:gap-5 xsm:flex-wrap xsm:justify-center'>
               <img src={customerComp1} alt='company' />
               <img src={customerComp2} alt='company' />
