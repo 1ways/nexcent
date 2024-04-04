@@ -29,7 +29,7 @@ const Footer = () => {
           <h3 className='font-inter font-medium text-white text-xl mb-6'>
             Company
           </h3>
-          <ul className='text-white font-inter font-normal flex flex-col gap-3'>
+          <ul className='text-white font-inter font-normal flex flex-col gap-3 text-base'>
             <li>
               <a href='#'>About us</a>
             </li>
