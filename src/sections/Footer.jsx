@@ -18,10 +18,18 @@ const Footer = () => {
             All rights reserved
           </p>
           <div className='flex items-center gap-5'>
-            <img className='cursor-pointer' src={inst} alt='instagram' />
-            <img className='cursor-pointer' src={dribble} alt='dribble' />
-            <img className='cursor-pointer' src={twitter} alt='twitter' />
-            <img className='cursor-pointer' src={youtube} alt='youtube' />
+            <a href='#'>
+              <img className='cursor-pointer' src={inst} alt='instagram' />
+            </a>
+            <a href='#'>
+              <img className='cursor-pointer' src={dribble} alt='dribble' />
+            </a>
+            <a href='#'>
+              <img className='cursor-pointer' src={twitter} alt='twitter' />
+            </a>
+            <a href='#'>
+              <img className='cursor-pointer' src={youtube} alt='youtube' />
+            </a>
           </div>
         </div>
 
