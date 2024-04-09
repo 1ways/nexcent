@@ -10,7 +10,7 @@ const Hero = () => {
           className='w-full md:h-screen'
           prevArrow={() => {}}
           nextArrow={() => {}}
-          autoplay={true}
+          autoplay={false}
           autoplayDelay={5000}
           transition={{ duration: 0.5 }}
           loop={true}
@@ -63,8 +63,8 @@ const Hero = () => {
                 </p>
                 <Button label={'Register'} iconURL={''} isFilled={true} />
               </div>
-              <div className='lg:hidden'>
-                <img src={sliderImg} alt='slider-img' />
+              <div className='lg:hidden max-w-[391px]'>
+                <img className='block w-full h-full object-cover' src={sliderImg} alt='slider-img' />
               </div>
             </div>
           </div>
